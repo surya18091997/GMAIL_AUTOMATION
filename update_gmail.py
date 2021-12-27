@@ -85,8 +85,8 @@ if __name__ == '__main__':
     data = json.load(js)
     query=frame_search_query(data)
     print(query)
-    #service=authenticate()
-    #if service:
-        #user_id='me'
-        #msg_ids=get_all_message_ids(service,user_id,query)
-        #perform_action(service,user_id,msg_ids,data)
+    service=authenticate()
+    if service:
+        user_id='me'
+        msg_ids=get_all_message_ids(service,user_id,query)
+        perform_action(service,user_id,msg_ids,data)
