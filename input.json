@@ -1,0 +1,20 @@
+{
+	"condition":"any",
+	"rule":[
+	{
+	"field_name":"From",
+	"predicate":"contains",
+	"value":"Housing"
+	},
+	{
+	"field_name":"Date",
+	"predicate":"greater than",
+	"value":"2021-12-10"
+	}
+	],
+	"action":{
+	"mail_action":"Move Message",
+	"current":"INBOX",
+	"to":"SPAM"
+	}
+}
