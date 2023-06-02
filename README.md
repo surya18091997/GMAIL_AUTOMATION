@@ -1,5 +1,5 @@
-# HAPPYFOX
-GMAIL AUTOMATION
+
+#GMAIL AUTOMATION
 
 
 First script:
